@@ -1,0 +1,1 @@
+Max: 21, Average: 7.92, 1000 iterations
