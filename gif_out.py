@@ -56,7 +56,7 @@ class Play():
                     fp_out = 'sample.gif'
 
                     img, *imgs = [Image.open(f) for f in sorted(glob.glob(fp_in))]
-                    img.save(fp=fp_out, format='GIF', append_images=imgs, save_all=True, duration=(cicle+1)*4, loop=1)
+                    img.save(fp=fp_out, format='GIF', append_images=imgs, save_all=True, duration=(cicle+1)*4, loop=0)
                     exit()
                 else:
                     cicle = 0
